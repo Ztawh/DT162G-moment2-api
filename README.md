@@ -8,3 +8,7 @@ Webbtjänsten ska spara data om kurser i en JSON-fil.
 ## Klona
 Klona repot med kommandot:
 * git clone https://github.com/Ztawh/DT162G-moment2-api.git
+
+För att köra servern skriver du:
+* node app.js
+i terminalen
