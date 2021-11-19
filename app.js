@@ -4,12 +4,12 @@ const fs = require('fs');
 
 // Sätter att inkommande data är json-objekt
 app.use(express.json());
-const port = 3000;
+const port = process.env.PORT;
 app.use(express.static(__dirname + '/courses'));
 
 // Lyssna på port 3000
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}/courses`)
+    console.log(`Example app listening at https://murmuring-ravine-91212.herokuapp.com`)
 });
 
 // Sätt headers
